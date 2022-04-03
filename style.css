@@ -1,0 +1,24 @@
+* 
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+.orange-color{
+    color: orange;font-size: 30px;
+}
+section{
+    display: flex;
+}
+.width-maintain{
+ width: 50%;
+ padding-left: 10px;
+}
+.width-maintain img{
+ width: 280%;
+}
+.hireme-decoration{
+    text-decoration: none;
+background-image: linear-gradient(rgb(231, 124, 124), tomato);
+color: white;
+padding: 10px 10px;
+}
