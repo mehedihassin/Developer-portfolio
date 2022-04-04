@@ -1,24 +1,46 @@
-* 
-
 body{
     font-family: 'Roboto Slab', serif;
+    margin: 0 ;
 }
 .orange-color{
     color: orange;font-size: 30px;
 }
 section{
     display: flex;
+    padding: 40px 40px;
+    margin-bottom: 100px;
 }
 .width-maintain{
  width: 50%;
- padding-left: 10px;
+ padding-left: 40px;
+ background-image:url(images/top-banner.png);
+ background-repeat: no-repeat;
 }
 .width-maintain img{
  width: 280%;
+ padding-left: 20px;
 }
 .hireme-decoration{
     text-decoration: none;
 background-image: linear-gradient(rgb(231, 124, 124), tomato);
 color: white;
 padding: 10px 10px;
+border-radius: 5px;
+}
+
+.half-width{
+    width: 150%;
+    padding-left: 2%;
+}
+.big-dream{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+.big-color{
+    color: red;
+font-weight: bold;
 }
